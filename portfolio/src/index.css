@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.chat-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .contacts-list {
+    width: 20%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .contact-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-item.selected {
+    background-color: #f0f0f0;
+  }
+  
+  .chat-window {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .message.sent {
+    text-align: right;
+    background-color: #e0f7fa;
+  }
+  
+  .message.received {
+    text-align: left;
+    background-color: #f0f0f0;
+  }
+  
+  .message-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .message-input button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
