@@ -21,7 +21,7 @@ function Contact() {
                             </div>
                             <div className='mb-4'>
                                 <FaPhone className='inline-block text-green-600 mr-2' />
-                                <span>+923443432432</span>
+                                <span>+917619030901</span>
                             </div>
                             <div className='mb-4'>
                                 <FaMapMarkedAlt className='inline-block text-green-600 mr-2' />

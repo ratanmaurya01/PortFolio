@@ -1,5 +1,6 @@
 import React from 'react'
 import portPhoto from '../Image/Photo.jpg'
+import Playing from '../Image/playing.jpg'
 
 function About() {
     return (
@@ -11,10 +12,11 @@ function About() {
                         //                 className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transition-transform
                         // duration-300 hover:scale-105'
 
-                        className='w-90 h-80 rounded object-cover mb-8 md:mb-0'
+                        className='w-90 h-80 rounded object-cover mb-8 md:mb-0 transition-transform
+  duration-300 hover:scale-105'
                         // src="https://img.freepik.com/free-photo/stylish-handsome-indian-man-tshirt-pastel-wall_496169-1571.jpg" 
 
-                        src={portPhoto} 
+                        src={Playing} 
 
                         alt="Hero page " />
 
@@ -63,17 +65,22 @@ function About() {
 
                         <div className='mt-12 flex justify-between text-center'>
                             <div>
-                                <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>1+</h3>
+                                <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>1.5+</h3>
                                 <p>Years of Experience</p>
+                            </div>
+                            
+                            <div>
+                                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>3+</h3>
+                                <p>Gis Developer</p>
                             </div>
 
                             <div>
-                                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>3+</h3>
+                                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>12+</h3>
                                 <p>Project Completed </p>
                             </div>
 
                             <div>
-                                <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>001+</h3>
+                                <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 '>05+</h3>
                                 <p>Happy Consomter</p>
 
                             </div>

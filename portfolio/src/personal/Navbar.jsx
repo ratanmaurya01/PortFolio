@@ -30,13 +30,15 @@ function Navbar() {
                     <a key={text} href={`#${text.toLowerCase()}`} onClick={closeMenu} className='hover:text-gray-400'>{text}</a>
                 ))}
              
-                <button
+                {/* <button
                     onClick={closeMenu}  // Close the menu when clicked
                     className='transform transition duration-300 hover:scale-105 px-4 py-2 rounded-full'
                     style={{ background: 'linear-gradient(to right, orange, pink)' }}
                 >
                     Connect Me
-                </button>
+                </button> */}
+
+                
             </div>
         </nav>
     );
